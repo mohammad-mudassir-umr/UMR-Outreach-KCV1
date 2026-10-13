@@ -1,0 +1,7 @@
+flask
+requests
+python-dotenv
+dnspython
+twilio
+sentry-sdk>=2.0,<3
+langfuse>=4.0,<5

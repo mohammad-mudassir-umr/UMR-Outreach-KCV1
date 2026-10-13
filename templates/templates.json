@@ -1,0 +1,71 @@
+{
+  "_schema_note": "Every field except 'opener' is your real proven copy from the 16-template playbook, substituted verbatim every time \u2014 the proof point, the offer, and the CTA never change and are never AI-generated, so quality can't drift. 'opener' is the one variable sentence: built deterministically first (grammar-safe by construction, works for any shape of research detail), with AI given one validated attempt to upgrade it to more natural prose. 'detail_fallback' is only used when a lead has neither Trigger nor Pain Point filled in. real_estate additionally supports solo-vs-team stat/proof selection via each lead's Business Type column.",
+
+  "auto_repair": {
+    "keywords": ["auto repair", "dealership", "auto shop", "mechanic", "car dealer", "collision"],
+    "subject_options": ["quick q, {{company}}", "{{company}} \u2014 missed calls?", "1 in 3 calls missed?", "service bay volume?"],
+    "detail_fallback": "extended Saturday service hours",
+    "opener_example": "Saw Riverside Auto Care has extended Saturday service hours.",
+    "skeleton": "Hi {{first_name}},\n\n{{opener}} Most fixed-ops teams that size miss roughly 1 in 3 incoming service calls during peak hours \u2014 advisors are writing up repair orders and calls go to voicemail.\n\nWe install an AI Service Advisor that answers every call, qualifies the issue, and books the bay directly into Reynolds & Reynolds.\n\nA dealer group in Ohio cut missed calls from 40% to 5% in three weeks \u2014 adding $47K/month in booked appointments.\n\nWorth a 15-minute conversation? If not, I'll get out of your way.\n\n{{sender_name}}"
+  },
+
+  "real_estate": {
+    "keywords": ["real estate", "realtor", "realty", "property agency", "brokerage"],
+    "subject_options": ["quick q, {{company}}", "{{company}} \u2014 lead response?", "15+ hour response time?", "{{location}} \u2014 lead response?"],
+    "detail_fallback": "several new listings",
+    "opener_example": "Saw InvesTeam Realty has active listings in Doral.",
+    "skeleton": "Hi {{first_name}},\n\n{{opener}} {{stat_block}}\n\nWe install an AI Lead Agent that responds within seconds, qualifies the buyer, and books the viewing \u2014 synced to Follow Up Boss.\n\n{{proof_block}}\n\nWorth a look at where your lead leakage might be?\n\n{{sender_name}}",
+    "team_stat_block": "Most teams your size respond to new leads in 15+ hours \u2014 by then, the average buyer has already called two other agents.",
+    "solo_stat_block": "Solo agents juggling their own showings often can't respond to a new lead the moment it comes in \u2014 and by the time you do, the average buyer has already called two other agents.",
+    "team_proof_block": "One team recovered 12+ additional viewings a month without adding an ISA.",
+    "solo_proof_block": "A solo agent in a comparable market picked up meaningful extra viewing capacity without hiring an assistant."
+  },
+
+  "restaurants": {
+    "keywords": ["restaurant", "cafe", "cafes", "diner", "bistro", "eatery"],
+    "subject_options": ["quick q, {{company}}", "{{company}} \u2014 missed calls?", "150 calls a month?", "review gap?"],
+    "detail_fallback": "4.8 stars from 1,400+ reviews",
+    "opener_example": "Noticed La Terra Kitchen has 4.8 stars from 1,400+ reviews.",
+    "skeleton": "Hi {{first_name}},\n\n{{opener}} When the team is slammed, reservation and takeout calls often ring out \u2014 most restaurants miss ~150 calls a month, and most callers won't call back.\n\nWe install an AI Host that answers every call, books tables, handles common questions, and fills cancellations from the waitlist \u2014 synced to OpenTable.\n\nA comparable restaurant recovered 21 additional reservations a week this way.\n\nWorth a look at what's sitting behind unanswered calls?\n\n{{sender_name}}"
+  },
+
+  "med_spas": {
+    "keywords": ["med spa", "medspa", "salon", "spa", "aesthetics", "beauty clinic"],
+    "subject_options": ["quick q, {{company}}", "{{company}} \u2014 booking gap?", "dms going unanswered?", "no-show rate?"],
+    "detail_fallback": "injectables and laser",
+    "opener_example": "Amason Aesthetics offers injectables and laser, and the social engagement is strong.",
+    "skeleton": "Hi {{first_name}},\n\n{{opener}} For treatments at that price point, even a few missed calls, slow DMs, or no-shows a week add up \u2014 most med spas see 20-30% no-show rates without automated reminders.\n\nWe install an AI Booking Agent that handles calls, texts, and DMs, confirms with card-on-file, and books directly into Boulevard.\n\nOne clinic booked 18 additional sessions a week without any extra front-desk work.\n\nWorth a look?\n\n{{sender_name}}"
+  },
+
+  "gyms": {
+    "keywords": ["gym", "fitness studio", "fitness", "crossfit", "yoga studio", "personal training"],
+    "subject_options": ["quick q, {{company}}", "{{company}} \u2014 churn?", "8-12% churn?", "trial show-up rate?"],
+    "detail_fallback": "added six early-morning classes for its fall challenge",
+    "opener_example": "Noticed Body by Vlad is hiring \u2014 usually means membership growth is outpacing front-desk bandwidth.",
+    "skeleton": "Hi {{first_name}},\n\n{{opener}} Studios at that volume typically see 8\u201312% monthly churn, and a chunk of it is trial no-shows and failed payments nobody follows up on.\n\nWe install an AI Sales & Retention Agent that replies to inquiries instantly, confirms trial show-ups, recovers failed payments, and flags at-risk members in Mindbody.\n\nOne studio recovered $18K in failed payments in 60 days.\n\nIf you give me your member count, I can estimate the monthly opportunity. Worth a look?\n\n{{sender_name}}"
+  },
+
+  "ecommerce": {
+    "keywords": ["ecommerce", "e-commerce", "dtc", "shopify", "online store", "d2c"],
+    "subject_options": ["quick q, {{company}}", "{{company}} \u2014 support volume?", "30% of tickets are wismo?", "checkout leakage?"],
+    "detail_fallback": "scaling paid traffic",
+    "opener_example": "Noticed Northfield Supply Co is scaling paid ad spend on Meta.",
+    "skeleton": "Hi {{first_name}},\n\n{{opener}} At that stage, \"where is my order?\" and return questions typically eat 30%+ of support volume while shoppers wait for answers.\n\nWe install an AI Support Agent that resolves WISMO and returns instantly, escalates VIP/frustrated customers, and recovers abandoned checkouts \u2014 native to Shopify.\n\nA comparable DTC brand recovered $31K/month in checkout and support leakage.\n\nIf you share monthly ticket volume, I can estimate the opportunity. Worth a look?\n\n{{sender_name}}"
+  },
+
+  "financial_advisors": {
+    "keywords": ["financial advisor", "wealth management", "financial planning", "advisory firm"],
+    "subject_options": ["quick q, {{company}}", "{{company}} \u2014 time recovery?", "34% client-facing time?", "crm backlog?"],
+    "detail_fallback": "expanding its retirement-planning offering",
+    "opener_example": "Saw Meridian Wealth Advisors is expanding its retirement-planning offering.",
+    "skeleton": "Hi {{first_name}},\n\n{{opener}} Most advisors we talk to spend only 34\u201338% of their week actually client-facing \u2014 the rest goes to meeting notes, CRM updates, and compliance admin.\n\nWe install an AI Meeting & Ops Agent that transcribes calls, drafts compliant summaries, and syncs client portfolios into Wealthbox \u2014 giving you more client-facing time, not less advisor.\n\nAdvisors we work with report ~6 hours a week recovered.\n\nWorth exploring?\n\n{{sender_name}}"
+  },
+
+  "marketing_agencies": {
+    "keywords": ["marketing agency", "ad agency", "digital agency", "creative agency"],
+    "subject_options": ["quick q, {{company}}", "{{company}} \u2014 reporting load?", "18 hours/month recovered?", "client reporting time?"],
+    "detail_fallback": "paid and SEO for a dozen-plus clients",
+    "opener_example": "Noticed Beacon Digital Marketing manages paid and SEO for a dozen-plus clients.",
+    "skeleton": "Hi {{first_name}},\n\n{{opener}} At that scope, reporting and status updates quietly consume full days each month \u2014 time that doesn't directly increase margin.\n\nWe build AI Ops systems that assemble real-time dashboards, draft client updates, flag underperforming campaigns, and sync with Asana.\n\nOne agency saved 18 hours a month and recovered thousands in unbilled work this way.\n\nIf I estimated the hours you could recover monthly, would that be useful?\n\n{{sender_name}}"
+  }
+}

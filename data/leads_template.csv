@@ -1,0 +1,5 @@
+Name,Email,Niche,Owner Name,Business Type,Location,Pain Point,Website,Trigger,Notes
+Bright Smile Dental,owner@brightsmiledental.example,dental clinic,Kylie,,Austin USA,missed calls during rush hours,brightsmiledental.example,extended weekend hours,
+Harbor House Diner,manager@harborhousediner.example,restaurant,David,,Portland USA,no-shows on weekend reservations,harborhousediner.example,4.7 stars from 900+ reviews,
+InvesTeam Realty,agent@investeamrealty.example,real estate,Reinaldo,team,Doral FL,slow response to buyer inquiries,investeamrealty.example,active listings in Doral,
+United Real Estate Specialists,michelle@uresagents.example,real estate,Michelle,solo,Tucson AZ,manages own lead flow solo,uresagents.example,manages her own lead flow and showings,leave Business Type blank if unsure - defaults to team
